@@ -1,0 +1,15 @@
+@use "settings" as *;
+@use "./pages/components/logo.scss";
+@use "./pages/components/appli.scss";
+@use "./pages/components/card.scss";
+
+* {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(../../src/assets/img/61ueRRtEw7L.webp) center/cover;
+}

@@ -1,0 +1,21 @@
+@use "../../settings" as *;
+
+.Appli {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    input {
+        padding: 5px 10px;
+        border-radius: 5px;
+        border: 1px solid $color1;
+        width: 50%;
+    }
+
+    input:focus {
+        outline: none;
+        border: 3px solid $color1;
+    }
+}
