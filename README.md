@@ -2,6 +2,8 @@
 
 Application de recherche de recettes de cuisine via l'API [TheMealDB](https://www.themealdb.com/).
 
+🌐 **Site live : [https://gclaude21.github.io/Cooking-React/](https://gclaude21.github.io/Cooking-React/)**
+
 ## Tech stack
 
 - React + Vite
