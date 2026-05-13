@@ -1,16 +1,37 @@
-# React + Vite
+# 🍽️ Cooking React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Application de recherche de recettes de cuisine via l'API [TheMealDB](https://www.themealdb.com/).
 
-Currently, two official plugins are available:
+## Tech stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- React + Vite
+- SASS (Dart Sass)
+- Axios
+- React Router DOM
 
-## React Compiler
+## Fonctionnalités
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Recherche de plats en temps réel par nom (en anglais)
+- Affichage des recettes en grille : nom, origine, photo, instructions
+- Mise à jour automatique des résultats à chaque saisie
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+git clone https://github.com/GCLAUDE21/cookind-react.git
+cd cookind-react
+npm install
+npm run dev
+```
+
+## Déploiement
+
+```bash
+npm run deploy
+```
+
+Le projet est déployé via GitHub Pages.
+
+## API
+
+[TheMealDB](https://www.themealdb.com/api.php) : API gratuite de recettes du monde entier.
