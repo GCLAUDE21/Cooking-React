@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../assets/img/chef-cooking-food-in-a-pot-png.webp';
+import logo from '../assets/img/chef-cooking-food-in-a-pot-png.webp';
 
 const Logo = () => {
     return (
